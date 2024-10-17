@@ -14,9 +14,9 @@ function toggleMode(){
     //substituir a imagem
     if(html.classList.contains('light')){
         //se estiver no light mode, adicionar a imagem light
-        img.setAttribute('src', '../assets/avatar-light.png');
+        img.setAttribute('src', './assets/avatar-light.png');
     } else {
         //se estiver no dark mode, manter a imagem normal
-        img.setAttribute('src', '../assets/avatar.png');
+        img.setAttribute('src', './assets/avatar.png');
     }
 }
