@@ -34,7 +34,7 @@ body {
 
     /* Background: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
-    height: 90vh;
+    height: 95vh;
 }
 
 body * {
@@ -45,14 +45,14 @@ body * {
 #container {
     width: 100%;
     max-width: 588px;
-    margin: 56px auto 0px;
+    margin: 28px auto 0;
     padding: 0 24px;
 }
 
 /* Profile */
 #profile {
     text-align: center;
-    padding: 0 24px 24px 24px;
+    padding: 0 24px 16px 24px;
 }
 
 #profile img {
@@ -114,7 +114,7 @@ ul {
     flex-direction: column;
     gap: 16px;
 
-    padding: 24px 0;
+    padding-top: 16px;
 }
 
 ul li a {
@@ -147,7 +147,7 @@ ul li a:hover {
     display: flex;
     justify-content: center;
 
-    padding-top: 24px;
+    padding: 16px 0;
 
     font-size: 24px;
 }
